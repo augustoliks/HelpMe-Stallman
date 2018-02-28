@@ -1,0 +1,5 @@
+apt-get install msttcorefonts
+
+o pacote será instalado no diretório  /usr/share/fonts/truetype/msttcorefonts/
+
+para a fonte ser aplicada no sistema basta reiniciar os serviços

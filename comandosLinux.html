@@ -1,0 +1,746 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML lang=en dir=ltr xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<BASE HREF="http://comandoslinux.com/">
+ <TITLE>Comandos Linux - Lista rápida de Comandos para Linux/UNIX</TITLE>
+<META name="y_key" content="72b22272f8840377" >
+<meta name="verify-v1" content="onsGzHwpl95Dr7X5/5bUVmjYiRiBh34tFDBa/q871kY=" />
+ <META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+ <META content="Tenha sempre à mão uma lista rápida dos comandos mais usados em Linux/Unix para que não tenha de perder tempo à procura de manuais!" name="description">
+ <META content="comandos,linux,unix,ubuntu,suse,mandriva,redhat,debian,slackware,freebsd,gnu,solaris,programacao,comunicacoes,documentacao,ajuda,edicao,texto,gestao,ficheiros,directorias,impressao,varios,noticias,rede,processos,estado,imagens,texto,web,xwindows,exit,logout,passwd,rlogin,ssh,slogin,yppasswd,mail,mesg,pine,talk,write,as,awk,bc,cc,csh,dbx,f77,gdb,gprof,ld,lex,lint,make,maple,mathnice,nohuppc,perl,prof,python,sh,yacc,xcalc,apropos,find,info,man,whatis,whereis,emacs,pico,sed,vi,vim,cd,chmod,chown,chgrp,cmp,comm,cp,crypt,diff,file,grep,gzip,ln,ls,lsof,mkdir,mv,pwd,quota,rm,rmdir,stat,sync,sort,tar,tee,tr,umask,uncompress,uniq,wc,cat,fold,head,lpq,lpr,lprm,more,less,page,pr,tail,zcat,xv,gv,xpdf,ftp,rsync,scp,alias,chquota,chsh,clear,echo,popd,pushd,script,setenv,stty,netstat,rsh,ssh,nmap,ifconfig,ping,kill,bg,fg,jobs,^y,^z,clock,date,df,du,env,finger,history,last,lpq,manpath,printenv,ps,pwd,set,spend,time,top,uptime,w,who,whois,whoami,gimp,kpaint,pbm,xfig,xv,xvscan,xpaint,mplayer,realplay,timidity,xmms,abiword,addbib,col,diction,diffmk,dvips,explain,grap,hyphen,ispell,latex,pdfelatex,latex2html,lookbib,macref,ndx,neqn,nroff,pic,psdit,ptx,refer,roffbib,sortbib,spell,style,tbl,tex,tpic,wget,grabmode,import,xdpyinfo,xkill,xlock,xterm,xwininfo,html2ps,latex2html,lynx,netscape,sitecopy,weblint" name="keywords">
+ <META content="MSHTML 6.00.2900.2523" name="GENERATOR">
+ <!-- NAME CSS FILE AFTER SITE TITLE -->
+<style type="text/css">
+BODY {
+        background-COLOR: #ffffff; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+startfragment {
+}
+UNKNOWN {
+	FONT: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+H1 {
+    FONT-SIZE: 14px
+}
+H2 {
+    FONT-SIZE: 12px
+}
+A:link {
+	COLOR: #000030; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff4400; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #ff4400; TEXT-DECORATION: none
+}
+.page {
+	COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+TD {
+	FONT: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+TH {
+	FONT: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+P {
+	FONT: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+LI {
+	FONT: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+.headarea {
+	BACKGROUND-COLOR: #f5f5ff
+}
+.tborder {
+	BACKGROUND-COLOR: #000066
+}
+.tcat {
+	FONT-SIZE: 10pt; COLOR: #ffffff; BACKGROUND-COLOR: #000066
+}
+.tcat A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.tcat A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.tcat A:hover {
+	COLOR: #cccccc; TEXT-DECORATION: underline
+}
+.tcat A:active {
+	COLOR: #cccccc; TEXT-DECORATION: underline
+}
+.thead {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND-COLOR: #5c7099; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: verdana, geneva, lucida, lucida grande, arial, helvetica, sans-serif; FONT-VARIANT: normal
+}
+.thead A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.thead A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.thead A:hover {
+	COLOR: #ff99ff; TEXT-DECORATION: none
+}
+.thead A:active {
+	COLOR: #ff99ff; TEXT-DECORATION: none
+}
+.tfoot {
+	COLOR: #e0e0f6; BACKGROUND-COLOR: #3e5c92
+}
+.tfoot A:link {
+	COLOR: #e0e0f6
+}
+.tfoot A:visited {
+	COLOR: #e0e0f6
+}
+.tfoot A:hover {
+	COLOR: #ffff66
+}
+.tfoot A:active {
+	COLOR: #ffff66
+}
+.alt1 {
+	COLOR: #000000; BACKGROUND-COLOR: #f5f5ff
+}
+.alt1Active {
+	COLOR: #000000; BACKGROUND-COLOR: #f5f5ff
+}
+.alt2 {
+	COLOR: #000000; BACKGROUND-COLOR: #e1e4f2
+}
+.alt2Active {
+	COLOR: #000000; BACKGROUND-COLOR: #e1e4f2
+}
+.alt3 {
+	COLOR: #000000; BACKGROUND-COLOR: #d5d8e5
+}
+.wysiwyg {
+	FONT: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; COLOR: #000000; BACKGROUND-COLOR: #f5f5ff
+}
+TEXTAREA {
+	FONT: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+.bginput {
+	FONT: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+.button {
+	FONT: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+SELECT {
+	FONT: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+OPTION {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+OPTGROUP {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+.smallfont {
+	FONT: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+.time {
+	COLOR: #666686
+}
+.navbar {
+	FONT: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+.highlight {
+	FONT-WEIGHT: bold; COLOR: #ff0000
+}
+.fjsel {
+	COLOR: #e0e0f6; BACKGROUND-COLOR: #3e5c92
+}
+.fjdpth0 {
+	COLOR: #000000; BACKGROUND-COLOR: #f7f7f7
+}
+.panel {
+	BORDER-RIGHT: 2px outset; PADDING-RIGHT: 10px; BORDER-TOP: 2px outset; PADDING-LEFT: 10px; BACKGROUND: url(../../vbulletin_css/images/gradients/gradient_panel.gif) #e4e7f5 repeat-x left top; PADDING-BOTTOM: 10px; BORDER-LEFT: 2px outset; COLOR: #000000; PADDING-TOP: 10px; BORDER-BOTTOM: 2px outset
+}
+.panelsurround {
+	BACKGROUND: url(../../vbulletin_css/images/gradients/gradient_panelsurround.gif) #d5d8e5 repeat-x left top; COLOR: #000000
+}
+LEGEND {
+	FONT: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; COLOR: #22229c
+}
+.vbmenu_control {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 3px; FONT: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; COLOR: #ffffff; PADDING-TOP: 3px; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #738fbf
+}
+.vbmenu_control A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.vbmenu_control A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.vbmenu_control A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.vbmenu_control A:active {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.vbmenu_popup {
+	BORDER-RIGHT: #0b198c 1px solid; BORDER-TOP: #0b198c 1px solid; BORDER-LEFT: #0b198c 1px solid; COLOR: #000000; BORDER-BOTTOM: #0b198c 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.vbmenu_option {
+	FONT: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; CURSOR: pointer; COLOR: #000000; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #bbc7ce
+}
+.vbmenu_option A:link {
+	COLOR: #22229c; TEXT-DECORATION: none
+}
+.vbmenu_option A:visited {
+	COLOR: #22229c; TEXT-DECORATION: none
+}
+.vbmenu_option A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.vbmenu_option A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.vbmenu_hilite {
+	FONT: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; CURSOR: pointer; COLOR: #ffffff; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #8a949e
+}
+.vbmenu_hilite A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.vbmenu_hilite A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.vbmenu_hilite A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.vbmenu_hilite A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.bigusername {
+	FONT-SIZE: 14pt
+}
+TD.thead {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+DIV.thead {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.pagenav A {
+	TEXT-DECORATION: none
+}
+.pagenav TD {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.fieldset {
+	MARGIN-BOTTOM: 6px
+}
+.fieldset {
+	FONT-SIZE: 11px
+}
+.fieldset TD {
+	FONT-SIZE: 11px
+}
+.fieldset P {
+	FONT-SIZE: 11px
+}
+.fieldset LI {
+	FONT-SIZE: 11px
+}
+FORM {
+	DISPLAY: inline
+}
+LABEL {
+	CURSOR: default
+}
+.normal {
+	FONT-WEIGHT: normal
+}
+.inlineimg {
+	VERTICAL-ALIGN: middle
+}
+</style></HEAD>
+<BODY leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
+<!-- Start Comandos Linux Top -->
+<TABLE cellspacing="0" cellpadding="0" width="780" align="center" border="0">
+<TBODY>
+<TR>
+<TD>
+  <TABLE class="tborder" cellspacing="0" cellpadding="0" width="100%" align="center" border="0">
+  <TBODY>
+  <TR>
+  <TD class="headarea">
+    <DIV class"navbar">
+	<CENTER><script type="text/javascript"><!--
+google_ad_client = "pub-7259590501719664";
+//dlldictionary.com ad unit horizontal
+google_ad_slot = "7265286448";
+google_ad_width = 728;
+google_ad_height = 90;
+//--></script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+          <a href="/index.php" title="Comandos Linux - Guia Rápido de Comandos em Linux"><img src="logo.gif" alt="Comandos Linux - Guia Rápido de Comandos em Linux" border="0"></a>
+		  <BR><script type="text/javascript"><!--
+google_ad_client = "pub-7259590501719664";
+//dlldictionary.com link unit horizontal
+google_ad_slot = "0461945122";
+google_ad_width = 728;
+google_ad_height = 15;
+//--></script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></CENTER>
+		</DIV>
+	</TD>
+  <TD class="headarea" align="right" width="*">
+	  <DIV class="navbar">
+      <DIV align="center">
+			  <!-- Start Banner Space -->
+        <!-- End Banner Space -->
+		  </DIV>
+		</DIV>
+	</TD>
+	</TR>
+	</TBODY>
+	</TABLE>
+  <DIV align="center">
+    <TABLE class="tborder" style="BORDER-TOP-WIDTH: 0px" cellspacing="1" cellpadding="2" width="780" align="center" border="0">
+    <TBODY>
+    <TR class="style4" align="middle">
+    <TD class="vbmenu_control" width="14%">
+		  <A class="style4" href="http://www.comandoslinux.com/index.php?pagina=comandos-basicos" title="Comandos Básicos">Comandos Básicos</A>
+		</TD>
+    <TD class="vbmenu_control" width="14%">
+		  <A class="style4" href="http://www.comandoslinux.com/index.php?pagina=comandos-varios" title="Comandos Vários">Comandos Vários</A>
+		</TD>
+    <TD class="vbmenu_control" width="14%">
+		  <A class="style4" href="http://www.comandoslinux.com/index.php?pagina=ferramentas-de-programacao" title="Ferramentas de Programação">Ferramentas de Programação</A>
+		</TD>
+    <TD class="vbmenu_control" width="14%">
+		  <A class="style4" href="http://www.comandoslinux.com/index.php?pagina=aplicacoes-de-som-e-imagem" title="Aplicações de Som e Imagem">Aplicações de Som e Imagem</A>
+		</TD>
+    <TD class="vbmenu_control" width="14%">
+		  <A class="style4" href="http://www.comandoslinux.com/index.php?pagina=x-windows" title="X Windows">X Windows</A>
+		</TD>
+    <TD class="vbmenu_control" width="14%">
+		  <A class="style4" href="http://www.comandoslinux.com/index.php?pagina=contactos" title="Contactos">Contactos</A>
+		</TD>
+    <TD class="vbmenu_control" width="*">
+		  <A class="style4" href="http://www.comandoslinux.com" title="Comandos Linux">Comandos Linux</A>
+		</TD>
+		</TR>
+		</TBODY>
+		</TABLE>
+	</DIV>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+<!-- End Comandos Linux Top --><TABLE cellspacing="1" cellpadding="2" width="780" border="0" align="center">
+<TBODY>
+<TR>
+<!-- Start Comandos Linux Left Column -->
+<TD style="VERTICAL-ALIGN: top" width="160">
+  <TABLE class="tborder" cellspacing="0" cellpadding="0" align="center" border="0" width="100%">
+  <TBODY>
+  <TR>
+  <TD>
+    <TABLE style="WIDTH: 100%" cellspacing="1" cellpadding="6" border="0">
+    <TBODY>
+    <TR align="middle">
+    <TD class="thead">
+		  <SPAN class="smallfont"><B>O que é o <i>Linux</i>?</B></SPAN>
+		</TD>
+		</TR>
+    <TR>
+    <TD class="alt1">
+      <DIV class="smallfont"><script type="text/javascript"><!--
+google_ad_client = "pub-7259590501719664";
+//dlldictionary.com link unit square
+google_ad_slot = "0033522965";
+google_ad_width = 120;
+google_ad_height = 90;
+//--></script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><BR>
+			  &nbsp;&nbsp;&nbsp;O <i>Linux</i> é uma família de sistemas operativos da família <i>Unix</i>, baseados no <i>kernel Linux</i>. São usados tanto em computadores pessoais como em servidores, e temos como exemplos de distribuições, a </i>Red Hat</i>, <i>Ubuntu</i>, <i>CentOS</i>, <i>Slackware</i>, <i>Suse Linux</i>, <i>Debian</i>, Caixa Mágica, etc...<br>&nbsp;&nbsp;&nbsp;
+			  
+			  O <i>Linux</i> é o perfeito exemplo do que é um <i>software</i> gratuito e de <i>open source</i>, em que o seu código fonte pode ser modificado, redistribuído e usado por toda a gente.<br>&nbsp;&nbsp;&nbsp;
+			  
+			  O nome <i>Linux</i> vem do <i>kernel Linux</i>, que obteve o seu nome do seu criador <i>Linus Torvalds</i>, que o criou em 1991. A maioria das aplicações e livrarias do <i>Linux</i> vêm do sistema operativo <i>GNU</i>, começado em 1983 por <i>Richard Stallman</i>, e é devido a essa grande contribuição por parte da comunidade <i>GNU</i> que o <i>Linux</i> se desenvolveu tanto e se tornou tão popular, e é a razão do frequentemente usado nomem <i>GNU/Linux</i>.<br>&nbsp;&nbsp;&nbsp;
+			  
+			  Grandes empresas usam o <i>Linux</i> quer como estações de trabalho, quer como servidores, ou mesmo máquinas de desenvolvimento de programas para sistemas operativos <i>Unix</i> muitas vezes, e é usado por todo o tipo de computadores pessoais e <i>hardwares</i> hoje em dia, incluindo até consolas de jogo como as <i>Playstations</i>, e até aparelhos como <i>routers</i>.<br>&nbsp;&nbsp;&nbsp;
+			  
+			  Os comandos do <i>Linux</i> são mesmo muitos, tanto que muitos deles são aplicações externas que poderão estar já por defeito em determinadas distribuições mas que poderão ter de ser instaladas à mão em outras, como o <i>nmap</i> que é um comando que não passa de uma aplicação bastante eficaz usada para por exemplo fazer <i>portscans</i>. Por esse motivo é difícil expor todos os comandos, razão pela qual serão expostos neste website os principais.<br>&nbsp;&nbsp;&nbsp;
+			</DIV>
+
+<br />
+<script type="text/javascript"><!--
+google_ad_client = "pub-7259590501719664";
+//dlldictionary.com ad unit vertical
+google_ad_slot = "3878547480";
+google_ad_width = 120;
+google_ad_height = 600;
+//--></script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+		</TD>
+		</TR>
+    </TBODY>
+		</TABLE>
+
+	</TD>
+	</TR>
+	</TBODY>
+	</TABLE>
+	<BR />
+
+
+</TD>
+<!-- End Comandos Linux Left Column --><!-- Start Comandos Linux Main Column -->
+<TD style="VERTICAL-ALIGN: top" style="TEXT-ALIGN: center" cellspacing="0" cellpadding="0" width="470" border="0">
+		  <h1>Comandos Linux - Lista Rápida de Comandos para Linux/UNIX</h1><!-- AddThis Button BEGIN --><script type="text/javascript">var addthis_pub='comandoslinux';addthis_brand='Comandos<br>Linux';addthis_language='pt';addthis_logo_background='EBF1F2';addthis_logo_color='FFFFFF';addthis_localize={share_caption:'Adic. Favoritos/Partilhar',email_caption:'Enviar página a um amigo',email:'Email',favorites:'Favoritos',more:'Mais...'};</script><a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', '[URL]', '[TITLE]')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="botao-favoritos-preto.png" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script><!-- AddThis Button END --><center>
+<p><script type="text/javascript"><!--
+google_ad_client = "pub-7259590501719664";
+//dlldictionary.com ad unit square
+google_ad_slot = "5528138993";
+google_ad_width = 336;
+google_ad_height = 280;
+//--></script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></center>
+<DIV align="left">
+
+      
+			  <h1>Bem vindo(a) aos <b><i>Comandos Linux</i></b>!</h1>
+              <b><i>Comandos Linux</i></b> é um pequeno website com um conjunto de comandos <i>Linux</i> para uso no dia a dia, sempre que nos esquecemos de algum em particular. Sempre que se quiserem lembrar de um comando, visitem-nos e coloquem-nos nos favoritos (Pressionando as teclas Ctrl + D ao mesmo tempo).<br />
+      <!--[if IE]>
+         <b><a href="#" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.comandoslinux.com');">
+         Definir como Homepage
+         </a></b> or
+         <b><a href='javascript:window.external.addFavorite("http://www.comandoslinux.com", "Comandos Linux")'>Favoritos</a></b>
+      <![endif]-->
+      <br /><br />
+<p><table cols=2 width=450><tr><td colspan=2><i><b>Comandos de Controlo e Acesso</b></i></td></tr>
+<tr><td></td><td></td></tr>
+<tr valign=top><td width=100><b>exit </b></td><td>Terminar a sessão, ou seja, a <i>shell</i> (mais ajuda digitando <i>man sh</i> ou <i>man csh</i>)</td></tr>
+<tr valign=top><td width=100><b>logout </b></td><td>Deslogar, ou seja, terminar a sessão actual, mas apenas na <i>C shell</i> e na <i>bash shell</i></td></tr>
+<tr valign=top><td width=100><b>passwd </b></td><td>Mudar a <i>password</i> do nosso utilizador</td></tr>
+<tr valign=top><td width=100><b>rlogin </b></td><td>Logar de forma segura noutro sistema <i>Unix/Linux<i></td></tr>
+<tr valign=top><td width=100><b>ssh </b></td><td>Sessão segura, vem de <i>secure shell</i>, e permite-nos logar num servidor através do protocolo <i>ssh</i></td></tr>
+<tr valign=top><td width=100><b>slogin </b></td><td>Versão segura do <i>rlogin</i></td></tr>
+<tr valign=top><td width=100><b>yppasswd </b></td><td>Mudar a <i>password</i> do nosso utilizador nas páginas amarelas (<i>yellow pages</i>)</td></tr>
+</table><p>
+<table cols=2 width=450><tr><td colspan=2><i><b>Comandos de Comunicações</b></i></td></tr>
+<tr><td></td><td></td></tr>
+<tr valign=top><td width=100><b>mail </b></td><td>Enviar e receber emails</td></tr>
+<tr valign=top><td width=100><b>mesg </b></td><td>Permitir ou negar mensagens de terminal e pedidos de conversação (<i>talk requests</i>)</td></tr>
+<tr valign=top><td width=100><b>pine </b></td><td>Outra forma de enviar e receber emails, uma ferramenta rápida e prática</td></tr>
+<tr valign=top><td width=100><b>talk </b></td><td>Falar com outros utilizadores que estejam logados no momento</td></tr>
+<tr valign=top><td width=100><b>write </b></td><td>Escrever para outros utilizadores que estejam logados no momento</td></tr>
+</table><p>
+<table cols=2 width=450><tr><td colspan=2><i><b>Comandos de Ajuda e Documentação</b></i></td></tr>
+<tr><td></td><td></td></tr>
+<tr valign=top><td width=100><b>apropos </b></td><td>Localiza comandos por pesquisa de palavra-chave</td></tr>
+<tr valign=top><td width=100><b>find </b></td><td>Localizar ficheiros, como por exemplo: <i>find . -name *.txt -print</i>, para pesquisa de ficheiros de texto por entre os ficheiros da directoria actual</td></tr>
+<tr valign=top><td width=100><b>info </b></td><td>Lança o explorador de informações</td></tr>
+<tr valign=top><td width=100><b>man </b></td><td>Manual muito completo, pesquisa informação acerca de todos os comandos que necessitemos de saber, como por exemplo <i>man find</i></td></tr>
+<tr valign=top><td width=100><b>whatis </b></td><td>Descreve o que um determinado comando é</td></tr>
+<tr valign=top><td width=100><b>whereis </b></td><td>Localizar a página de ajuda (<i>man page</i>), código fonte, ou ficheiros binários, de um determinado programa</td></tr>
+</table><p>
+<table cols=2 width=450><tr><td colspan=2><i><b>Comandos de Edição de Texto</b></i></td></tr>
+<tr><td></td><td></td></tr>
+<tr valign=top><td width=100><b>emacs </b></td><td>Editor de texto <i>screen-oriented</i></td></tr>
+<tr valign=top><td width=100><b>pico </b></td><td>Editor de texto <i>screen-oriented</i>, também chamado de <i>nano</i></td></tr>
+<tr valign=top><td width=100><b>sed </b></td><td>Editor de texto <i>stream-oriented</i></td></tr>
+<tr valign=top><td width=100><b>vi </b></td><td>Editor de texto <i>full-screen</i></td></tr>
+<tr valign=top><td width=100><b>vim </b></td><td>Editor de texto <i>full-screen</i> melhorado (<i>vi improved</i>)</td></tr>
+</table><p>
+<table cols=2 width=450><tr><td colspan=2><i><b>Comandos de Gestão de Ficheiros e Directorias</b></i></td></tr>
+<tr><td></td><td></td></tr>
+<tr valign=top><td width=100><b>cd </b></td><td>Mudar de directoria actual, como por exemplo <i>cd directoria</i>, <i>cd ..</i>, <i>cd /</i></td></tr>
+<tr valign=top><td width=100><b>chmod </b></td><td>Mudar a protecção de um ficheiro ou directoria, como por exemplo <i>chmod 777</i>, parecido com o <i>attrib</i> do <i>MS-DOS</i></td></tr>
+<tr valign=top><td width=100><b>chown </b></td><td>Mudar o dono ou grupo de um ficheiro ou directoria, vem de <i>change owner</i></td></tr>
+<tr valign=top><td width=100><b>chgrp </b></td><td>Mudar o grupo de um ficheiro ou directoria</td></tr>
+<tr valign=top><td width=100><b>cmp </b></td><td>Compara dois ficheiros</td></tr>
+<tr valign=top><td width=100><b>comm </b></td><td>Selecciona ou rejeita linhas comuns a dois ficheiros seleccionados</td></tr>
+<tr valign=top><td width=100><b>cp </b></td><td>Copia ficheiros, como o <i>copy</i> do <i>MS-DOS</i></td></tr>
+<tr valign=top><td width=100><b>crypt </b></td><td>Encripta ou Desencripta ficheiros (apenas <i>CCWF</i>)</td></tr>
+<tr valign=top><td width=100><b>diff </b></td><td>Compara o conteúdo de dois ficheiros <i>ASCII</i></td></tr>
+<tr valign=top><td width=100><b>file </b></td><td>Determina o tipo de ficheiro</td></tr>
+<tr valign=top><td width=100><b>grep </b></td><td>Procura um ficheiro por um padrão, sendo um filtro muito útil e usado, por exemplo um <i>cat a.txt | grep ola</i> irá mostrar-nos apenas as linhas do ficheiro a.txt que contenham a palavra “ola”</td></tr>
+<tr valign=top><td width=100><b>gzip </b></td><td>Comprime ou expande ficheiros</td></tr>
+<tr valign=top><td width=100><b>ln </b></td><td>Cria um <i>link</i> a um ficheiro</td></tr>
+<tr valign=top><td width=100><b>ls </b></td><td>Lista o conteúdo de uma directoria, semelhante ao comando <i>dir</i> no <i>MS-DOS</i></td></tr>
+<tr valign=top><td width=100><b>lsof </b></td><td>Lista os ficheiros abertos, vem de <i>list open files</i></td></tr>
+<tr valign=top><td width=100><b>mkdir </b></td><td>Cria uma directoria, vem de <i>make directory”</td></tr>
+<tr valign=top><td width=100><b>mv </b></td><td>Move ou renomeia ficheiros ou directorias</td></tr>
+<tr valign=top><td width=100><b>pwd </b></td><td>Mostra-nos o caminho por inteiro da directoria em que nos encontramos em dado momento, ou seja a <i>pathname</i></td></tr>
+<tr valign=top><td width=100><b>quota </b></td><td>Mostra-nos o uso do disco e os limites</td></tr>
+<tr valign=top><td width=100><b>rm </b></td><td>Apaga ficheiros, vem de <i>remove</i>, e é semelhante ao comando <i>del</i> no <i>MS-DOS</i>, é preciso ter cuidado com o comando <i>rm *</i> pois apaga tudo sem confirmação por defeito</td></tr>
+<tr valign=top><td width=100><b>rmdir </b></td><td>Apaga directorias, vem de <i>remove directory</i></td></tr>
+<tr valign=top><td width=100><b>stat </b></td><td>Mostra o estado de um ficheiro, útil para saber por exemplo a hora e data do último acesso ao mesmo</td></tr>
+<tr valign=top><td width=100><b>sync </b></td><td>Faz um <i>flush</i> aos <i>buffers</i> do sistema de ficheiros, sincroniza os dados no disco com a memória, ou seja escreve todos os dados presentes nos <i>buffers</i> da memória para o disco</td></tr>
+<tr valign=top><td width=100><b>sort </b></td><td>Ordena, une ou compara texto, podendo ser usado para extrair informações dos ficheiros de texto ou mesmo para ordenar dados de outros comandos como por exemplo listar ficheiros ordenados pelo nome</td></tr>
+<tr valign=top><td width=100><b>tar </b></td><td>Cria ou extrai arquivos, muito usado como programa de backup ou compressão de ficheiros</td></tr>
+<tr valign=top><td width=100><b>tee </b></td><td>Copia o <i>input</i> para um <i>standard output</i> e outros ficheiros</td></tr>
+<tr valign=top><td width=100><b>tr </b></td><td>Traduz caracteres</td></tr>
+<tr valign=top><td width=100><b>umask </b></td><td>Muda as protecções de ficheiros por defeito</td></tr>
+<tr valign=top><td width=100><b>uncompress </b></td><td>Restaura um ficheiro comprimido</td></tr>
+<tr valign=top><td width=100><b>uniq </b></td><td>Reporta ou apaga linhas repetidas num ficheiro</td></tr>
+<tr valign=top><td width=100><b>wc </b></td><td>Conta linhas, palavras e mesmo caracteres num ficheiro</td></tr>
+</table><p>
+<table cols=2 width=450><tr><td colspan=2><i><b>Exibição ou Impressão de Ficheiros</b></i></td></tr>
+<tr><td></td><td></td></tr>
+<tr valign=top><td width=100><b>cat </b></td><td>Mostra o conteúdo de um ficheiro, como o comando <i>type</i> do <i>MD-DOS</i>, e é muito usado também para concatenar ficheiros, como por exemplo fazendo <i>cat a.txt b.txt > c.txt” para juntar o ficheiro a.txt e b.txt num único de nome c.txt</td></tr>
+<tr valign=top><td width=100><b>fold </b></td><td>Encurta, ou seja, faz um <i>fold</i> das linhas longas para caberem no dispositivo de <i>output</i></td></tr>
+<tr valign=top><td width=100><b>head </b></td><td>Mostra as primeiras linhas de um ficheiro, como por exemplo com <i>head -10 a.txt</i>, ou usado como filtro para mostrar apenas os primeiros <i>x</i> resultados de outro comando</td></tr>
+<tr valign=top><td width=100><b>lpq </b></td><td>Examina a <i>spooling queue</i> da impressora</td></tr>
+<tr valign=top><td width=100><b>lpr </b></td><td>Imprime um ficheiro</td></tr>
+<tr valign=top><td width=100><b>lprm </b></td><td>Remove <i>jobs</i> da <i>spooling queue</i> da impressora</td></tr>
+<tr valign=top><td width=100><b>more </b></td><td>Mostra o conteúdo de um ficheiro, mas apenas um ecrã de cada vez, ou mesmo <i>output</i> de outros comandos, como por exemplo <i>ls | more</i></td></tr>
+<tr valign=top><td width=100><b>less </b></td><td>Funciona como o <i>more</i>, mas com menos <i>features</i>, menos características e potenciais usos</td></tr>
+<tr valign=top><td width=100><b>page </b></td><td>Funciona de forma parecida com o comando <i>more</i>, mas exibe os ecrãs de forma invertida ao comando <i>more</i></td></tr>
+<tr valign=top><td width=100><b>pr </b></td><td>Pagina um ficheiro para posterior impressão</td></tr>
+<tr valign=top><td width=100><b>tail </b></td><td>Funciona de forma inversa ao comando <i>head</i>, mostra-nos as últimas linhas de um ficheiro ou mesmo do <i>output</i> de outro comando, quando usado como filtro</td></tr>
+<tr valign=top><td width=100><b>zcat </b></td><td>Mostra-nos um ficheiro comprimido</td></tr>
+<tr valign=top><td width=100><b>xv </b></td><td>Serve para exibir, imprimir ou mesmo manipular imagens</td></tr>
+<tr valign=top><td width=100><b>gv </b></td><td>Exibe ficheiros <i>ps</i> e <i>pdf</i></td></tr>
+<tr valign=top><td width=100><b>xpdf</b></td><td>Exibe ficheiros <i>pdf</i>, usa o <i>gv</i></td></tr>
+</table><p>
+<table cols=2 width=450><tr><td colspan=2><i><b>Comandos de Transferência de Ficheiros</b></i></td></tr>
+<tr><td></td><td></td></tr>
+<tr valign=top><td width=100><b>ftp </b></td><td>Vem de <i>file transfer protocol</i>, e permite-nos, usando o protocolo de transferência de ficheiros <i>ftp</i>, transferir ficheiros entre vários <i>hosts</i> de uma rede, como aceder a um servidor de <i>ftp</i> para enviar ou puxar ficheiros</td></tr>
+<tr valign=top><td width=100><b>rsync </b></td><td>Sincroniza de forma rápida e flexível dados entre dois computadores</td></tr>
+<tr valign=top><td width=100><b>scp </b></td><td>Versão segura do <i>rcp</i></td></tr>
+</table><p>
+<table cols=2 width=450><tr><td colspan=2><i><b>Comandos de Notícias ou Rede</b></i></td></tr>
+<tr><td></td><td></td></tr>
+<tr valign=top><td width=100><b>netstat </b></td><td>Mostra o estado da rede</td></tr>
+<tr valign=top><td width=100><b>rsh </b></td><td>Corre umam <i>shell</i> em outros sistemas <i>UNIX</i></td></tr>
+<tr valign=top><td width=100><b>ssh </b></td><td>Versão segura do <i>rsh</i></td></tr>
+<tr valign=top><td width=100><b>nmap</b></td><td>Poderoso <i>port-scan</i>, para visualizarmos portas abertas num dado <i>host</i></td></tr>
+<tr valign=top><td width=100><b>ifconfig</b></td><td>Visualizar os <i>ips</i> da nossa máquina, entre outras funções relacionadas com <i>ips</i></td></tr>
+<tr valign=top><td width=100><b>ping</b></td><td>Pingar um determinado <i>host</i>, ou seja, enviar pacotes <i>icmp</i> para um determinado <i>host</i> e medir tempos de resposta, entre outras coisas</td></tr>
+</table><p>
+<table cols=2 width=450><tr><td colspan=2><i><b>Comandos de Controlo de Processos</b></i></td></tr>
+<tr><td></td><td></td></tr>
+<tr valign=top><td width=100><b>kill </b></td><td>Mata um processo, como por exemplo <i>kill -kill 100</i> ou <i>kill -9 100</i> ou <i>kill -9 %1</i></td></tr>
+<tr valign=top><td width=100><b>bg </b></td><td>Coloca um processo suspenso em <i>background</i></td></tr>
+<tr valign=top><td width=100><b>fg </b></td><td>Ao contrário do comando <i>bg</i>, o <i>fg</i> traz de volta um processo ao <i>foreground</i></td></tr>
+<tr valign=top><td width=100><b>jobs </b></td><td>Permite-nos visualizar <i>jobs</i> em execução, quando corremos uma aplicação em <i>background</i>, poderemos ver esse <i>job</i> com este comando, e termina-lo com um comando <i>kill -9 %1</i>, se for o <i>job</i> número 1, por exemplo</td></tr>
+<tr valign=top><td width=100><b>top </b></td><td>Lista os processos que mais <i>cpu</i> usam, útil para verificar que processos estão a provocar um uso excessivo de memória, e quanta percentagem de <i>cpu</i> cada um usa em dado momento</td></tr>
+<tr valign=top><td width=100><b>^y </b></td><td>Suspende o processo no próximo pedido de <i>input</i></td></tr>
+<tr valign=top><td width=100><b>^z </b></td><td>Suspende o processo actual</td></tr>
+</table><p>
+<table cols=2 width=450><tr><td colspan=2><i><b>Comandos de Informação de Estado</b></i></td></tr>
+<tr><td></td><td></td></tr>
+<tr valign=top><td width=100><b>clock </b></td><td>Define a hora do processador</td></tr>
+<tr valign=top><td width=100><b>date </b></td><td>Exibe a data e hora</td></tr>
+<tr valign=top><td width=100><b>df </b></td><td>Exibe um resumo do espaço livre em disco</td></tr>
+<tr valign=top><td width=100><b>du </b></td><td>Exibe um resumo do uso do espaço em disco</td></tr>
+<tr valign=top><td width=100><b>env </b></td><td>Exibe as variáveis de ambiente</td></tr>
+<tr valign=top><td width=100><b>finger </b></td><td>Pesquisa informações de utilizadores</td></tr>
+<tr valign=top><td width=100><b>history </b></td><td>Lista os últimos comandos usados, muito útil para lembrar também de que comandos foram usados para fazer determinada acção no passado ou o que foi feito em dada altura</td></tr>
+<tr valign=top><td width=100><b>last </b></td><td>Indica o último <i>login</i> de utilizadores</td></tr>
+<tr valign=top><td width=100><b>lpq </b></td><td>Examina a <i>spool queue</i></td></tr>
+<tr valign=top><td width=100><b>manpath </b></td><td>Mostra a <i>path</i> de procura para as páginas do comando <i>man</i></td></tr>
+<tr valign=top><td width=100><b>printenv </b></td><td>Imprime as variáveis de ambiente</td></tr>
+<tr valign=top><td width=100><b>ps </b></td><td>Lista a lista de processos em execução, útil para saber o <i>pid</i> de um processo para o mandar abaixo com o comando <i>kill</i>, entre outras coisas</td></tr>
+<tr valign=top><td width=100><b>pwd </b></td><td>Mostra-nos o caminho por inteiro da directoria em que nos encontramos em dado momento, ou seja a <i>pathname</i></td></tr>
+<tr valign=top><td width=100><b>set </b></td><td>Define variáveis da sessão, ou seja, da <i>shell</i>, na <i>C shell</i>, na <i>bash</i> ou na <i>ksh</i></td></tr>
+<tr valign=top><td width=100><b>spend </b></td><td>Lista os custos <i>ACITS UNIX</i> até à data</td></tr>
+<tr valign=top><td width=100><b>time </b></td><td>Mede o tempo de execução de programas</td></tr>
+<tr valign=top><td width=100><b>uptime </b></td><td>Diz-nos há quanto tempo o sistema está funcional, quando foi ligado e o seu <i>uptime</i></td></tr>
+<tr valign=top><td width=100><b>w </b></td><td>Mostra-nos quem está no sistema ou que comando cada <i>job</i> está a executar</td></tr>
+<tr valign=top><td width=100><b>who </b></td><td>Mostra-nos quem está logado no sistema</td></tr>
+<tr valign=top><td width=100><b>whois </b></td><td>Serviço de directório de domínios da Internet, permite-nos saber informações sobre determinados domínios na Internet, quando um domínio foi registado, quando expira, etc</td></tr>
+<tr valign=top><td width=100><b>whoami </b></td><td>Diz-nos quem é o dono da <i>shell</i></td></tr>
+</table><p>
+<table cols=2 width=450><tr><td colspan=2><i><b>Comandos de Processamento de Texto</b></i></td></tr>
+<tr><td></td><td></td></tr>
+<tr valign=top><td width=100><b>abiword </b></td><td>Processador de Texto <i>Open Source</i></td></tr>
+<tr valign=top><td width=100><b>addbib </b></td><td>Cria ou modifica bases de dados bibliográficas</td></tr>
+<tr valign=top><td width=100><b>col </b></td><td>Reverte o filtro a <i>line feeds</i></td></tr>
+<tr valign=top><td width=100><b>diction </b></td><td>Identifica sentenças com palavras</td></tr>
+<tr valign=top><td width=100><b>diffmk </b></td><td>Marca diferenças entre ficheiros</td></tr>
+<tr valign=top><td width=100><b>dvips </b></td><td>Converte ficheiros <i>TeX DVI</i> em ficheiros <i>PostScript</i></td></tr>
+<tr valign=top><td width=100><b>explain </b></td><td>Explica frases encontradas pelo programa <i>diction</i></td></tr>
+<tr valign=top><td width=100><b>grap </b></td><td>Preprocessador <i>pic</i> para desenhar gráficos, usado em tarefas elementares de análises de dados</td></tr>
+<tr valign=top><td width=100><b>hyphen </b></td><td>Encontra palavras com hífenes</td></tr>
+<tr valign=top><td width=100><b>ispell </b></td><td>Verifica a ortografia de forma interactiva</td></tr>
+<tr valign=top><td width=100><b>latex </b></td><td>Formata texto em <i>LaTeX</i>, que é baseado no <i>TeX</i></td></tr>
+<tr valign=top><td width=100><b>pdfelatex </b></td><td>Para documentos <i>LaTeX</i> em formato <i>pdf</i></td></tr>
+<tr valign=top><td width=100><b>latex2html </b></td><td>Converter <i>LaTeX</i> para <i>html</i></td></tr>
+<tr valign=top><td width=100><b>lookbib </b></td><td>Encontra referências bibliográficas</td></tr>
+<tr valign=top><td width=100><b>macref </b></td><td>Cria uma referência cruzada listando ficheiros de macros <i>nroff/troff</i></td></tr>
+<tr valign=top><td width=100><b>ndx </b></td><td>Cria uma página de indexação para um documento</td></tr>
+<tr valign=top><td width=100><b>neqn </b></td><td>Formata matemáticas com <i>nroff</i></td></tr>
+<tr valign=top><td width=100><b>nroff </b></td><td>Formata texto para exibição simples</td></tr>
+<tr valign=top><td width=100><b>pic </b></td><td>Produz simples imagens para <i>troff input</i></td></tr>
+<tr valign=top><td width=100><b>psdit </b></td><td>Filtra um <i>output</i> <i>troff</i> para a <i>Apple LaserWriter</i></td></tr>
+<tr valign=top><td width=100><b>ptx </b></td><td>Cria uma indexação permutada mas não em <i>CCWF</i></td></tr>
+<tr valign=top><td width=100><b>refer </b></td><td>Insere referências de bases de dados bibliográficas</td></tr>
+<tr valign=top><td width=100><b>roffbib </b></td><td>Faz o <i>run off</i> de uma base de dados bibliográfica</td></tr>
+<tr valign=top><td width=100><b>sortbib </b></td><td>Ordena uma base de dados bibliográfica</td></tr>
+<tr valign=top><td width=100><b>spell </b></td><td>Encontra erros de ortografia</td></tr>
+<tr valign=top><td width=100><b>style </b></td><td>Analisa as características superficiais de um documento</td></tr>
+<tr valign=top><td width=100><b>tbl </b></td><td>Formata tabelas para <i>nroff/troff</i></td></tr>
+<tr valign=top><td width=100><b>tex </b></td><td>Formata texto</td></tr>
+<tr valign=top><td width=100><b>tpic </b></td><td>Converte ficheiros <i>pic source</i> em comandos <i>TeX</i></td></tr>
+<tr valign=top><td width=100><b>wget </b></td><td>Permite-nos fazer o download completo de páginas web, com todos os ficheiros, de forma fácil e não interactiva, sem exigir por isso presença do utilizador, respeitando também o ficheiro <i>robots.txt</i></td></tr>
+</table><p>
+<table cols=2 width=450><tr><td colspan=2><i><b>Web</b></i></td></tr>
+<tr><td></td><td></td></tr>
+<tr valign=top><td width=100><b>html2ps </b></td><td>Conversor de <i>html</i> para <i>ps</i></td></tr>
+<tr valign=top><td width=100><b>latex2html </b></td><td>Conversor de <i>LaTeX</i> para <i>html</i></td></tr>
+<tr valign=top><td width=100><b>lynx </b></td><td>Navegador <i>web</i> baseado em modo de texto, ou seja, é um <i>web browser</i> que nos permite abrir todo o tipo de páginas visualizando apenas os textos e <i>links</i>, não vendo assim as imagens, e sendo por isso bastante rápido, mas requere prática para ser manuseado</td></tr>
+<tr valign=top><td width=100><b>netscape </b></td><td>Navegador <i>web</i> da <i>Netscape</i></td></tr>
+<tr valign=top><td width=100><b>sitecopy </b></td><td>Aplicação que nos permite manter facil e remotamente <i>web sites</i></td></tr>
+<tr valign=top><td width=100><b>weblint </b></td><td>Verificador de sintaxes e de estilos <i>html</i></td></tr></table><p>			</DIV>
+</TD>
+<!-- End Comandos Linux Main Column -->
+
+<!-- Start Comandos Linux Right Column -->
+<TD style="VERTICAL-ALIGN: top" width="160">
+
+  <TABLE class="tborder" cellspacing="0" cellpadding="0" align="center" border="0" width="100%">
+  <TBODY>
+  <TR>
+  <TD>
+
+    <TABLE style="WIDTH: 100%" cellspacing="1" cellpadding="6" border="0">
+    <TBODY>
+    <TR align="middle">
+    <TD class="thead">
+		  <SPAN class="smallfont"><B>Há semelhanças entre o <i>MS-DOS</i> e o <i>Linux</i>?</B></SPAN>
+		</TD>
+		</TR>
+    <TR>
+    <TD class="alt1">
+      <DIV class="smallfont"><script type="text/javascript"><!--
+google_ad_client = "pub-7259590501719664";
+//dlldictionary.com link unit square
+google_ad_slot = "0033522965";
+google_ad_width = 120;
+google_ad_height = 90;
+//--></script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><BR>
+		  &nbsp;&nbsp;&nbsp;Sendo facto concordado por muitos que o <i>MS-DOS</i> se trata em parte de uma cópia dos sistemas <i>Unix</i> bem mais antigos, terá o <i>MS-DOS</i> bastantes semelhanças com os sistemas da família <i>UNIX</i>, como será o <i>Linux</i>. Vejamos algumas semelhanças ou mesmo comandos diferentes mas com funções similares:<br>&nbsp;&nbsp;&nbsp;
+		  
+		  <table>
+			<tr valign=top><td><b><i>MS-DOS</i></b></td><td><b><i>Linux/UNIX</i></b></td></tr>
+			<tr valign=top><td>attrib</td><td>chmod</td></tr>
+			<tr valign=top><td>backup</td><td>tar</td></tr>
+			<tr valign=top><td>cd</td><td>cd</td></tr>
+			<tr valign=top><td>date</td><td>date</td></tr>
+			<tr valign=top><td>dir</td><td>ls</td></tr>
+			<tr valign=top><td>cls</td><td>clear</td></tr>
+			<tr valign=top><td>copy</td><td>cp</td></tr>
+			<tr valign=top><td>del</td><td>rm</td></tr>
+			<tr valign=top><td>deltree</td><td>rm -R</td></tr>
+			<tr valign=top><td>edit</td><td>vi/pico/joe</td></tr>
+			<tr valign=top><td>exit</td><td>exit</td></tr>
+			<tr valign=top><td>format</td><td>fdformat</td></tr>
+			<tr valign=top><td>ipconfig</td><td>ifconfig</td></tr>
+			<tr valign=top><td>mkdir/md</td><td>mkdir</td></tr>
+			<tr valign=top><td>more < file</td><td>more file</td></tr>
+			<tr valign=top><td>move</td><td>rename/mv</td></tr>
+			<tr valign=top><td>netstat</td><td>netstat</td></tr>
+			<tr valign=top><td>ping</td><td>ping</td></tr>
+			<tr valign=top><td>rmdir</td><td>rmdir</td></tr>
+			<tr valign=top><td>time</td><td>time</td></tr>
+			<tr valign=top><td>tracert</td><td>traceroute</td></tr>
+			<tr valign=top><td>type</td><td>cat/less</td></tr>
+			<tr valign=top><td>win</td><td>startx</td></tr>
+		  </table><br>&nbsp;&nbsp;&nbsp;
+		  
+		  Entre muitas outras semelhanças, para não falar dos utilitários como <i>ftp</i>, <i>telnet</i>, etc, ou não fosse o <i>MS-DOS</i> muito baseado no <i>UNIX</i>, apesar de não ser sequer minimamente tão poderoso quanto este último.<br>&nbsp;&nbsp;&nbsp;
+		  </DIV>
+		</TD>
+		</TR>
+    </TBODY>
+		</TABLE>
+	</TD>
+	</TR>
+	</TBODY>
+	</TABLE>
+	<BR />
+
+
+	<BR />
+  <TABLE class="tborder" cellspacing="0" cellpadding="0" width="100%" align="center" border="0">
+  <TBODY>
+  <TR>
+  <TD>
+	</TD>
+	</TR>
+	</TBODY>
+	</TABLE>
+	<BR />
+
+  <TABLE class="tborder" cellspacing="0" cellpadding="0" align="center" border="0" width="100%">
+  <TBODY>
+  <TR>
+  <TD>
+
+    <TABLE style="WIDTH: 100%" cellspacing="1" cellpadding="6" border="0">
+    <TBODY>
+    <TR align="middle">
+    <TD class="thead">
+		  <SPAN class="smallfont"><B>Related Sites</B></SPAN>
+		</TD>
+		</TR>
+<TR><TD class="alt1"><DIV class="smallfont">
+		  <A class="style4" href="http://www.linux.org" title="Linux">Linux</A><br />
+		  <A class="style4" href="http://www.dlldictionary.com" title="DLL Files">DLL Files (Windows)</A><br />
+</DIV></TD></TR>
+</TBODY>
+		</TABLE>
+	</TD>
+	</TR>
+	</TBODY>
+	</TABLE>
+	<BR />
+
+
+</TD>
+<!-- End Comandos Linux Right Column --><!-- End Comandos Linux Bottom -->
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE class="page" cellspacing="0" cellpadding="6" width="780" align="center" border="0">
+<TBODY>
+<TR>
+<TD class="tfoot" align="right">
+  <DIV class="smallfont">
+	  <STRONG>
+		  <A class="style4" href="http://www.comandoslinux.com/index.php?pagina=comandos-basicos" title="Comandos Básicos">Comandos Básicos</A> -
+		  <A class="style4" <A class="style4" href="http://www.comandoslinux.com/index.php?pagina=comandos-varios" title="Comandos Vários">Vários</A> -
+		  <A class="style4" <A class="style4" href="http://www.comandoslinux.com/index.php?pagina=ferramentas-de-programacao" title="Ferramentas de Programação">Programação</A> -
+		  <A class="style4" <A class="style4" href="http://www.comandoslinux.com/index.php?pagina=aplicacoes-de-som-e-imagem" title="Aplicações de Som e Imagem">Som e Imagem</A> -
+		  <A class="style4" <A class="style4" href="http://www.comandoslinux.com/index.php?pagina=x-windows" title="X Windows">X Windows</A> -
+		  <A class="style4" <A class="style4" href="http://www.comandoslinux.com/index.php?pagina=contactos" title="Contactos">Contactos</A> -
+		  <A class="style4" href="http://www.comandoslinux.com" title="Comandos Linux">Comandos Linux</A> -
+          <A onclick="self.scrollTo(0, 0); return false;" href="http:///#top">Topo</A>
+		</STRONG>
+	</DIV>
+<DIV class="smallfont" align="center">
+  Copyright 2008-2016<b> <a href="/index.php" title="Comandos Linux" alt="Comandos Linux">Comandos Linux</a></b>
+</DIV>
+</TD>
+</TR>
+</TBODY>
+</TABLE><center><!-- AddThis Button BEGIN --><script type="text/javascript">var addthis_pub='comandoslinux';addthis_brand='Comandos<br>Linux';addthis_language='pt';addthis_logo_background='EBF1F2';addthis_logo_color='FFFFFF';addthis_localize={share_caption:'Adic. Favoritos/Partilhar',email_caption:'Enviar página a um amigo',email:'Email',favorites:'Favoritos',more:'Mais...'};</script><a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', '[URL]', '[TITLE]')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="botao-favoritos-preto.png" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script><!-- AddThis Button END --></center>
+
+</BODY>
+
+
+
+</HTML>
