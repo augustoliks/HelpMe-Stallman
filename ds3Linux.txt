@@ -1,0 +1,3 @@
+sudo apt-get install xboxdrv
+sudo xboxdrv --detach-kernel-driver --led 2
+

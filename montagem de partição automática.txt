@@ -1,0 +1,15 @@
+1 - execute o comando "df -h", e identifique suas partições...
+
+2 - edite o arquivo "/etc/fstab" adicionando essas linhas
+
+### PARTIÇÃO DOS ARQUIVOS
+/dev/sda4       /media/carlos/CEE0FD5DE0FD4BE9  ntfs    defaults,auto,user,umask=000,gid=46
+       |		     |			  |			|
+  esse numero varia...       |			  |			|
+			o caminho tbm...	  |			|
+					  sistema de arquivo		|
+								copia e cola isso aki...
+
+### PARTIÇÃO DO WINDOWS
+/dev/sda1       /media/carlos/56088CCB088CAB95  ntfs    defaults,auto,user,umask=000,gid=46
+

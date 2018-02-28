@@ -1,0 +1,5 @@
+sudo fdisk -l	//listar partições do sistema e identificar qual "sda" esta o linux
+
+sudo mount /dev/sda"numero-da-particao-linux" /mnt
+
+sudo grub-install --root-directory=/mnt /dev/sda	//instalei o grub no hd

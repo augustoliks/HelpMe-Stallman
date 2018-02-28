@@ -1,0 +1,13 @@
+Install ffmpeg On Ubuntu
+
+sudo apt-get install ffmpeg libavcodec-extra-53
+
+Converting MP4 to MP3
+
+Basic command:
+
+ffmpeg -i filename.mp4 filename.mp3
+
+Find out the more options of this command with man page. (man ffmpeg)
+
+ffmpeg -i filename.mp4 -b:a 192K -vn filename.mp3

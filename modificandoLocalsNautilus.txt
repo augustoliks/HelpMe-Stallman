@@ -1,0 +1,12 @@
+deve-se alterar o arquivo ~/.config/user-dirs.dirs
+
+XDG_DESKTOP_DIR="/mnt/my_home/OneDrive - Centro Paula Souza - FATEC/home/Desktop/"
+XDG_DOWNLOAD_DIR="/mnt/my_home/OneDrive - Centro Paula Souza - FATEC/home/Downloads/"
+XDG_TEMPLATES_DIR="/mnt/my_home/OneDrive - Centro Paula Souza - FATEC/home/Models/"
+XDG_PUBLICSHARE_DIR="/mnt/my_home/OneDrive - Centro Paula Souza - FATEC/home/Public/"
+XDG_DOCUMENTS_DIR="/mnt/my_home/OneDrive - Centro Paula Souza - FATEC/home/Documents/"
+XDG_MUSIC_DIR="/mnt/my_home/OneDrive - Centro Paula Souza - FATEC/home/Music/"
+XDG_PICTURES_DIR="/mnt/my_home/OneDrive - Centro Paula Souza - FATEC/home/Pictures/"
+XDG_VIDEOS_DIR="/mnt/my_home/OneDrive - Centro Paula Souza - FATEC/home/Videos/"
+						|
+						Indicar o caminho

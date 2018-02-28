@@ -1,0 +1,3 @@
+md5sum arquivo1 arquivo2
+
+se os arquivos tiverem CONTEÚDO igual, retornará o mesmo hash

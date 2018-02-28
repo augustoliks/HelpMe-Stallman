@@ -1,0 +1,18 @@
+Mudar permissão de arquivos e diretorios
+
+chmod oug -+ rwx /home/liks
+|	|  |  |     |
+comando	|  |  |     |
+	|  |  |     |
+	o: outros   |
+	u: usuario  |
+	g: grupo pertencente
+	   |  |     |
+	   +: Permite a permissao
+	   _: Retira a permissao
+	      |     |
+	      r: leitura
+	      w: escrita
+	      X: execucao
+		    |
+		    Diretorio ou arquivo em questao a ser modificado

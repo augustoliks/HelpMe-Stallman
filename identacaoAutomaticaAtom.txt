@@ -1,0 +1,8 @@
+Ctrl + Shift + p 
+
+este comando abre um campo de pesquisa, então pesquise por ‘keymap’
+
+Isto deve abrir o arquivo de cofiguração, e então basta inserir o seguinte texto:
+
+'atom-text-editor':
+ 'ctrl-i': 'editor:auto-indent'

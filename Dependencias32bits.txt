@@ -1,0 +1,8 @@
+instalar as dependencias 32 bits 
+
+dpkg --add-architecture i386
+apt-get update
+apt-get install libstdc++6:i386
+
+ai fica igual o windows 7 ele eh 64 bits mas roda coisas 32 bits tambem
+e isso eh quase transparente pro usuario... soh na hora de instalat q vc sabe q eh 32 bits depois q ta rodando vc nao percebe isso

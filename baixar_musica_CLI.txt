@@ -1,0 +1,21 @@
+apt-get install youtube-dl
+
+youtube-dl -x --audio-format=mp3 ytsearch:NOME DO VIDEO
+youtube-dl -x --audio-format=mp3 https://youtu.be/LhVRMiy8vF0
+					|
+					Url do video a ser baixado
+
+
+avconv -i Video.mkv -nv -f Musica.mp3
+
+
+
+>>> ouvir musica via terminal
+
+apt-get install mpv
+mpv musica.mp3
+
+
+>>> Cria um txt, q indica o ID do video jah baixado, se tiver, ele nao baixa denovo
+
+youtube-dl —download-archive baixados.txt -x —audio-format mp3 —audio-quality 128K -o "%(title)s.%(ext)s" https://listadoyoutube

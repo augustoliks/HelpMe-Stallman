@@ -1,0 +1,41 @@
+Primeiro Devemos exportar as variaveis de ambiente do do compliador java privado do eclipse
+
+	export JRE_HOME=/opt/jdk1.8.0_144/jre
+	export PATH=$PATH:/opt/jdk1.8.0_144/bin:/opt/jdk1.8.0_144/jre/bin
+	export JAVA_HOME=/opt/jdk1.8.0_144/
+
+OBS* Para tornar permanente o acesso dos comandos do java, eh necessario deixar adicionar as linhas acima no .bashrc
+
+Cenário:
+	--> codigoFonte.java	#codigo fonte java 
+	--> codigoFonte.class	#bytecode do java, linguagem intermediaria
+	--> executavel.jar	#executavel final a JVM
+
+1 PASSO - Compilar o fonte:
+	Devemos transformar o fonte em uma linguagem intermediária (compilar), Esse processo criará o bytecode codigoFonte.class
+
+	>>> javac codigoFonte.java
+		|	|
+		comando para compilar o codigo fonte
+			|
+			nome da classe java...
+
+2 PASSO - Criar o MANIFEST:
+	Primeiro, devemos criar um arquivo chamado manifest (nome opcional), para indicar quem é classe que detem o método main da funcao, neste arquivo deve ter somente uma linha com o seguinte conteudo:
+
+	Main-Class: NomeDaClassePrincipalMain
+
+3 PASSO - Criar o executavel/runable:
+	>>> jar -cfm aplicativo.jar manifest *.class
+	    		|		|	|
+			nome do executavel	|
+					|	|
+					arquivo que indica a classe detentora do metodo main
+						|
+						Todos o bytecode criado no ato da compilacao
+
+
+4 PASSO *opcional - Criacao de um comando para o bash:
+	Adicionar comando que indique o aplicativo... 
+	java -jar /<CAMINHO_EXECUTAVEL_.JAR>/aplicacao.jar $1
+

@@ -1,0 +1,35 @@
+>>> Verificar se o recurso está Ativo:
+	shopt extglob
+
+>>> Se o retorno for: 	
+:::	extglob         off
+
+>>> Ativar com:
+	shopt -s extglob
+
+
+
+>>> Exemplos:
+Apaga todos os arquivos EXCETO os arquivos "arquivo1.doc" e "arquivo2.doc":
+  	rm  !(arquivo1.doc|arquivo2.doc)
+
+Apaga todos os arquivos exceto aqueles terminados em ".zip" e ".iso":
+	rm  !(*.zip|*.iso)
+
+
+
+*** Este recurso pode ser usado com qualquer comando:
+Move tudo o que não for .txt para a pasta /tmp
+	mv !(*.txt) /tmp
+
+
+SINTAXE:
+	com ! (*.txt)
+	|   |	|
+	comando |
+	    |   |
+	    Menos
+		|
+		Esses elemento(s)
+
+//Tudo menos o que está dentro do paranteses

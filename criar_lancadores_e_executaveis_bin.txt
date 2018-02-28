@@ -1,0 +1,34 @@
+CRIAR COMANDOS NO TERMINAL LINUX:
+
+>>> Para criar os executáveis para chamar direto do shell é simples
+
+	1 -> Criar em sua "/home" uma pasta chamada "bin"
+
+	2 -> mover seus executaveis para o diretorio criado, exemplo: "mv programa.c /home/<nameUser>/bin" 
+
+	3 -> reiniciar a sessão
+
+	4 -> pronto!!!
+
+
+CRIAR LANÇADORES COM IMAGENS NO SEARCH PROVIDER: 
+
+>>> A criação de lançadores se resume em uma criação de um arquivo ".desktop", em que em suas propiedades, pedirá o caminho do executável, o respectivo ícone a ser demonstrado no Search Provider, entre outros campos    
+
+	1 -> criar um arquivo .desktop no diretório "/usr/share/applications/", ou no "/home/<nameUser>/.local/share/applications"
+
+	2 -> O arquivo deve conter a seguinte estrutura
+	
+[Desktop Entry]
+Version=1.0					# Versao da aplicacao ("efeitos visuais")
+Name=stallminha					# nome do lancador
+Exec=/home/liks/bin/stallminha.sh		# caminho do executavel
+Icon=/home/liks/bin/stallman.png		# caminho do ícone
+Type=Application				# O tipo de aplicacao ("efeitos visuais")
+Categories=Application;Development;Programming; # Categoria da aplicacao ("efeitos visuais")
+
+	3 -> Reinicia o shell
+		Alt+F2 -> r -> Enter
+
+DIFERENÇA: /usr/share/applications		# Configuracao do sistema comum a todos os usuarios
+	   /home/<nameUser>/.local/share/applications # Apenas para o usuário em questão

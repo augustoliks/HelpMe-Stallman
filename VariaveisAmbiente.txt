@@ -1,0 +1,18 @@
+Variaveis de ambiente:
+o comando "env" lista as variaveis de ambiente do usuário do sistema,
+
+para ter acesso as variaveis de ambiente, digite somente:
+	
+	$PATH	
+	>>> bash: /home/liks/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/liks/scripts/: 
+				|
+				Diretorios separados por dois pontos
+
+Isso significa que o bash procura nesses diretorios, os scripts e os binarios para serem executados...
+
+A variavel $PATH retorna os valores padroes quando o bash e reiniciado, para resolver esse problema, é
+necessário informar no arquivo de inicialização do bash (~/.bashrc), o respectivo diretorio a ser incluido no $PATH
+
+vim ~/.bashrc    
+
+	PATH=$PATH:/<DIRETORIO_CONTEM_BIN/SCRIPTS>

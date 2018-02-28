@@ -1,0 +1,39 @@
+1° – INSTALAR O XRDP
+
+NO TERMINAL DIGITE OS SEGUINTES COMANDOS
+
+<code>sudo apt-get update
+sudo apt-get install xrdp
+</code>
+
+2° – INSTALAR A INTERFACE DE ACESSO |  XFCE4
+
+<code>sudo apt-get install xfce4
+</code>
+
+ 3° – CONFIGURAR O xRDP
+
+AGORA SERÁ FEITA A CONFIGURAÇÃO DO XRDP PARA UTILIZAR O XFCE4 COMO INTERFACE DO ACESSO REMOTO, PRIMEIRO INSIRA O COMANDO ABAIXO NO TERMINAL
+
+<code>echo xfce4-session >~/.xsession
+</code>
+
+AGORA EDITE O ARQUIVO STARTWM E COLOQUE AS SEGUINTES INFORMAÇÕES:
+
+<code>sudo nano /etc/xrdp/startwm.sh</code>
+
+<code>#!/bin/sh
+
+if [ -r /etc/default/locale ]; then
+  . /etc/default/locale
+  export LANG LANGUAGE
+fi
+
+startxfce4
+</code>
+
+4° – REINICIAR O xRDP
+
+FEITO OS PASSOS ACIMA BASTA REINICIAR O SERVIÇO DO xRDP E PRONTO TUDO JÁ ESTARÁ FUNCIONAL
+
+<code>sudo service xrdp restart</code>

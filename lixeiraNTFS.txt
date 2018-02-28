@@ -1,0 +1,7 @@
+deve-se alterar o arquivo /etc/fstab
+	
+	/dev/sda4	/mnt/my_home	ntfs-3g uid=1000,user,auto,exec,rw	0	0
+					|	|
+					adicionar esse parametro no lugar do "defaults"
+						|
+						Adiconar este argumento

@@ -1,0 +1,13 @@
+#!/bin/bash	
+java -jar /home/<userName>/executavel.jar $1
+# |	|		|		   |
+# nome do comando	|		   |
+#	|		|		   |
+#	parametro do java		   |
+#			|		   |
+#			caminho do programa
+#					   |
+#					   Parametro QUE O USARIO DIGITARÁ
+
+
+# exemplo com um arquivo em .jar que recebe parametros via CLI, ou seja, esse ShellScript redirecionará tudo que for digitado apos seu nome para a variavel $1, que pegará o que foi escrito e executar comando posto no escopo do shell...

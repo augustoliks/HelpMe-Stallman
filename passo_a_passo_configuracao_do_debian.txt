@@ -1,0 +1,51 @@
+O que fazer depois de instalar o Debian 8.3 Jessie:
+
+1 - Instalar o sudo; 
+	su > 
+		apt-get install sudo >
+ 				/etc/sudoers >
+					USUARIO ALL = (ALL) ALL
+
+2 - Adicionar os repositórios não livres; 
+	etc/apt/sources.list >
+		deb http://ftp.br.debian.org/debian/ stretch main contrib non-free
+		deb http://security.debian.org/debian-security stretch/updates stretch main contrib non-free
+		deb ftp://ftp.deb-multimedia.org stretch main non-free
+
+3 - Atualizar o sistema; 
+	sudo apt-get update 
+	sudo apt-get install deb-multimedia-keyring 
+	sudo apt-get update
+	sudo apt-get upgrade
+	sudo apt-get dist-upgrade 
+	init 6
+
+4 - Instalando as coisas úteis (opcional);
+	sudo apt-get install unrar rar             
+	sudo apt-get install handbrake
+	sudo apt-get install handbrake-gtk
+	sudo apt-get install soundconverter
+	sudo apt-get install gstreamer0.10-plugins*
+	sudo apt-get install h264enc
+	sudo apt-get install easytag
+	sudo apt-get install lamein
+	sudo apt-get install libdvdread4
+	sudo apt-get install libdvdcss*
+	sudo apt-get install flashplugin-nonfree
+	sudo apt-get install cuetools
+	sudo apt-get install shntool
+
+
+5 - Deixar o sistema em Português do Brasil; 
+	dpkg-reconfigure locales en_US.ISO8859-1 en_US.UTF-8 pt_BR.ISO8859-1 pt_BR.UTF-8 
+		>>>Escolher o pt_BR.ISO8859-1.
+
+6 - instalar os firmware não livre
+	aptitude install firmware-linux-nonfree 
+
+7 - Mudar o layout do terminal
+	Descompactar a pasta "diolinux" na "pasta pessoal"
+
+mudar o sonzinho
+	/usr/share/sounds/gnome/default/alerts/sonar.ogg  ###converter o audio e preservar o nome...
+
